@@ -1,38 +1,98 @@
-.App {
+*{
+  box-sizing: border-box;
+}
+#navbar{
+  position: fixed;
+  width: 86.8%;
+  height: 80px;
+  background-color: rgb(43, 43, 43);
+  padding: 25px;
+  float: left;
+  margin-left: 200px;
+  z-index: 1;
+}
+#verbar{
+  position: fixed;
   text-align: center;
+  width: 200px;
+  height: 100%;
+  background-color: rgb(43, 43, 43);
+  float: left;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#maintab{
+  position:absolute;
+  width: 86.8%;
+  height:max-content;
+  background-color: rgb(43, 43, 43);
+  padding: 25px;
+  float: left;
+  margin-left: 200px;
+  margin-top: 80px;
+  padding-left: 0px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#searchbar{
+  width: 400px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 50px;
+  border: black 1px;
+  background-color: rgba(167, 167, 167, 0.24);
+  float: right;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.sp{
+  text-align: left;
+  width: 100%;
+  float: left;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  padding: 12px;
+  background-color:transparent;
+  margin-bottom: 2px;
+  border-radius: 40px 5px 5px 40px;
+  opacity: .6;
 }
-
-.App-link {
-  color: #61dafb;
+.sp:hover{
+  background-image: linear-gradient(to right,rgba(167, 166, 165, 0.39),rgba(167, 166, 165, 0.39),transparent);
+  opacity: 1;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#sp{
+  padding-left: 30px;
+  margin-top: 0px;
+}
+#second{
+  text-align: left;
+  float: left;
+  height:max-content;
+  width: 100%;
+  margin-top: 20px;
+  padding-left: 40px;
+}
+.second{
+  text-align: left;
+  width: 100%;
+  float: left;
+  font-family:  sans-serif;
+  color: rgb(255, 255, 255);
+  margin-top: 20px;
+  opacity: .7;
+}
+.second:hover{
+  opacity: .8;
+  text-decoration: underline;
+}
+.vname{
+  text-align: left;
+  font-size: 14px;
+  text-decoration: bold;
+  opacity: .4;
+}
+#playlist{
+  text-align: left;
+  float: left;
+  width: 100%;
+  padding: 40px;
+}
+#heading{
+  padding: 50px;
+  margin-top: 50px;
 }

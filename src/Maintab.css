@@ -1,0 +1,167 @@
+*{
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.containertwo{
+  float: left;
+  width: 600px;
+  height: 200px;
+  background-color: rgba(167, 167, 167, 0.24);
+  border-radius: 10px;
+  margin: 5px;
+}
+img{
+  background-color: violet;width: 120px;height: 110px;float: left;
+}
+#Dm{
+  padding-top: 30px;
+  float: left;
+  color: white;
+}
+#discp{
+  color: rgb(139, 139, 139);
+  font-size: 14px;
+  margin-left: 15px;
+  padding: 20px;
+}
+#imgc{
+  width: 250px;
+  height: 220px;
+  float: left;
+}
+.container{
+  float: left;
+  height: 90%;
+  width: 250px;
+  background-color: rgba(167, 167, 167, 0.24);
+  border-radius: 10px;
+  margin: 15px;
+  padding: 10px;
+}
+.containera{
+  color:white;
+  float: left;
+  height: 220px;
+  width: 30%;
+  background-color: rgba(167, 167, 167, 0.24);
+  border-radius: 10px;
+  margin: 15px;
+  padding: 10px;
+}
+.containertwo{
+  float: left;
+  width: 65%;
+  height: 220px;
+  background-color: rgba(167, 167, 167, 0.24);
+  border-radius: 10px;
+  margin: 15px;
+}
+ 
+.container3{
+  float: left;
+  width: 100%;
+  height:max-content;
+  background-color:rgba(167, 167, 167, 0.24);
+  margin: 15px;
+  border-radius: 10px;
+  padding: 10px;
+} 
+.container4{
+  float: left;
+  width: 100%;
+  height:max-content;
+  background-color:rgba(167, 167, 167, 0.24);
+  margin: 15px;
+  border-radius: 10px;
+  padding: 10px;
+} 
+.slides1{display: block;
+ padding-left: 15px;
+}
+.slides2{display: block;
+  padding-left: 15px;
+}
+.subcontainer{
+  float: left;
+  height:max-content;
+  width: 190px;
+  background-color:teal;
+  border-radius: 10px;
+  margin: 7px;
+}
+ .thumbnail{
+  height: 190px;
+  width: 190px;
+  border-radius: 7px;
+  background-color: rgb(11, 58, 53);
+ }
+ .songd{
+   font-size: 12px;
+   color: rgb(0, 0, 0);
+   padding: 5px;
+   margin: 5px;
+ }
+.subcontainer2{
+  float: left;
+  height: 200px;
+  width: 160px;
+  background-color: rgb(184, 162, 43);
+  border-radius: 10px;
+  margin: 7px;
+}
+.navigetor{
+            float: left; 
+            background-color: transparent;
+            padding: 10px;
+            margin: 5px;
+            margin-right: 0px;
+            font: 1em sans-serif;
+            height: 40%;
+            padding-top: 70px; 
+}
+table{
+  width: 100%;
+  height: max-content;
+  float: left;
+  background-color:transparent;
+}
+.tablecontent{
+  background-color:transparent;
+  width: 30%;
+  height: 50px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+}
+.tablecontent:hover{
+  background-color: rgb(38, 41, 41);
+}
+ .timage{
+  float:left;
+   height: 100px; 
+   width: 25%;
+  border-radius: 10px;
+  margin: 5px;
+}
+.tabd{
+  color: thistle;
+  float: left;
+  background-color: transparent;
+  width: 70%;
+  height: 95%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+h2{
+  float: left;
+  color: white;
+  width: 100%;
+  margin: 5px;
+  padding-left: 20px;
+}
+#demo{
+  margin-top: 0px;
+  font-size: 40px;
+  margin-bottom: 5px;
+}
