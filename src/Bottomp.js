@@ -17,7 +17,7 @@ function Bottomp() {
                  <img className="btns bop" src={pre}/>
               </div>
               <div id="rcontrols">
-
+                    <p>00:00/05:00</p>
               </div>
               <input type="range" max="100%" min="0" id="songrange"/>
               </div>

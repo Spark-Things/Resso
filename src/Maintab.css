@@ -11,9 +11,14 @@
   margin: 5px;
 }
 img{
-  background-color: violet;width: 120px;height: 110px;float: left;
+  background-color:violet;
+  width: 45%;
+  height: 50%;
+  float: left;
 }
 #Dm{
+  width: 65%;
+  height: 250px;
   padding-top: 30px;
   float: left;
   color: white;
@@ -25,14 +30,14 @@ img{
   padding: 20px;
 }
 #imgc{
-  width: 250px;
+  width: 35%;
   height: 220px;
   float: left;
 }
 .container{
   float: left;
   height: 90%;
-  width: 250px;
+  width: 220px;
   background-color: rgba(167, 167, 167, 0.24);
   border-radius: 10px;
   margin: 15px;
@@ -47,6 +52,7 @@ img{
   border-radius: 10px;
   margin: 15px;
   padding: 10px;
+  right: 0;
 }
 .containertwo{
   float: left;
@@ -59,7 +65,7 @@ img{
  
 .container3{
   float: left;
-  width: 100%;
+  width: 97.5%;
   height:max-content;
   background-color:rgba(167, 167, 167, 0.24);
   margin: 15px;
@@ -68,7 +74,7 @@ img{
 } 
 .container4{
   float: left;
-  width: 100%;
+  width: 97.5%;
   height:max-content;
   background-color:rgba(167, 167, 167, 0.24);
   margin: 15px;
@@ -103,21 +109,20 @@ img{
  }
 .subcontainer2{
   float: left;
-  height: 200px;
-  width: 160px;
-  background-color: rgb(184, 162, 43);
+  height:max-content;
+  width: 190px;
+  background-color:rgb(188, 206, 24);
   border-radius: 10px;
   margin: 7px;
 }
 .navigetor{
-            float: left; 
-            background-color: transparent;
-            padding: 10px;
+            float: left;
             margin: 5px;
             margin-right: 0px;
+            background-color: transparent;
             font: 1em sans-serif;
-            height: 40%;
-            padding-top: 70px; 
+            height: 220px; 
+            border: none;
 }
 table{
   width: 100%;
@@ -164,4 +169,31 @@ h2{
   margin-top: 0px;
   font-size: 40px;
   margin-bottom: 5px;
+}
+.micon{
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  margin-right: 5px;
+}
+@media only screen and (max-width: 600px){
+  h2{
+    font-size: 14px;
+    padding: 0px;
+  }
+  #imgc{
+    height: 110px;
+  }
+  .containertwo{
+    height:110px;
+    width: 100%;
+  }
+  #Dm{
+    height: 110px;
+    padding-top: 5px;
+    margin: 0px;
+  }
+  .containera{
+    display: none;
+  }
 }

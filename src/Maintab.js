@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{ useState } from 'react';
 import './Maintab.css';
 import Subcontainer from './Subcontainer';
 import Subcontainer2 from './Subcontainer2';
@@ -15,9 +15,41 @@ function Maintab() {
    if(time>12 && time<17){
      state.greet="Good Afternoon";
    }
-   if(time>17 && time<24){
+   if(time>=17 && time<=24){
      state.greet="Good Evening";
-   }
+ }
+    const style={
+      display:""
+    }
+    const sty2={
+      display:"none"
+    }
+    const sty3={
+      display:""
+    }
+    const sty4={
+      display:""
+    }
+   const[plus,setPlus] = useState(0);
+   const[minus,setMinus] = useState(0)
+     if(plus == 1){
+         sty2.display= "block";
+         style.display="none"
+     }
+     if(plus== 0){
+          style.display="block";
+          sty2.display="none";
+     }
+     if(minus == 0){
+        sty3.display="block";
+        sty4.display="none";
+     }
+     if(minus == 1){
+        sty4.display="block";
+        sty3.display="none";
+     }
+     console.log(plus);
+     console.log(style.display);
   return(
     <div id="maintab">
          <h1 id="demo">{state.greet}</h1>
@@ -31,8 +63,8 @@ function Maintab() {
      </div>
  </div> 
       <div class="containera">
-          <p>Hello from Line 17</p>
-      </div>
+              <h2>New Releases</h2>
+              </div>
      <div class="container3"> 
       <div class="container"></div>
       <div class="container"></div>
@@ -40,7 +72,8 @@ function Maintab() {
       <div class="container"></div></div>
       <div class="container3">
         <h2>Suggested Radios</h2>
-        <div class="slides1">
+        <button class="navigetor"onClick={()=>setPlus(0)}>L</button>
+        <div class="slides1" style={style}>
             <Subcontainer/>
             <Subcontainer/>
             <Subcontainer/>
@@ -48,13 +81,21 @@ function Maintab() {
             <Subcontainer/>
             <Subcontainer/>
         </div> 
-        <div class="slides1">
+        <div class="slides1" style={sty2}>
+           <Subcontainer2/>
+           <Subcontainer2/>
+           <Subcontainer2/>
+           <Subcontainer2/>
+           <Subcontainer2/>
+           <Subcontainer2/>
          </div>  
+         <button class="navigetor"onClick={()=>setPlus(1)}>R</button> 
         </div>
 
         <div class="container3">
         <h2>Songs You May Like </h2>
-        <div class="slides2">
+        <button class="navigetor"onClick={()=>setMinus(0)}>L</button>
+        <div class="slides2" style={sty3}>
             <Subcontainer/>
             <Subcontainer/>
             <Subcontainer/>
@@ -62,8 +103,15 @@ function Maintab() {
             <Subcontainer/>
             <Subcontainer/>
         </div> 
-        <div className="slides2">
+        <div className="slides2" style={sty4}>
+          <Subcontainer2/>
+          <Subcontainer2/>
+          <Subcontainer2/>
+          <Subcontainer2/>
+          <Subcontainer2/>
+          <Subcontainer2/>
          </div>
+         <button class="navigetor"onClick={()=>setMinus(1)}>R</button>
       </div> 
 
       <div class="container4">
@@ -76,6 +124,6 @@ function Maintab() {
            </div>
 </div>
   )  
-}
+  }
 export default Maintab;
   

@@ -5,7 +5,7 @@
   flex-direction: column-reverse;
   position: fixed;
   z-index: 1;
-  margin-top: 560px;
+  bottom: 0;
 }
 #plyer{
   background-color: turquoise;
@@ -13,6 +13,7 @@
   height: 90px;
   margin: 15px;
   border-radius: 10px;
+  box-shadow: 10px 20px 20px 5px rgba(0, 0, 0, 0.849);
 }
 #cthumb{
   width: 90px;
@@ -71,6 +72,9 @@
   float: right;
   width: 40%;
   height: 50px;
+  display: flex;
+  flex-direction: row-reverse;
+  padding-right: 20px;
 }
 .bop{
   opacity: .6;
@@ -79,4 +83,9 @@
 }
 .bop:hover{
   opacity: 1;
+}
+@media only screen and (max-width: 1024px){
+  #btm{
+    margin-top: 1024px;
+  }
 }
