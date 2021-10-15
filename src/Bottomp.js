@@ -23,7 +23,7 @@ function Bottomp() {
               </div>
          </div>
             <div id="pcont">
-            <img alt="Image here" id="cthumb"/>
+            <img alt="Image here" id="cthumb" className="img"/>
             </div>
      </div>
   )

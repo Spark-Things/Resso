@@ -1,6 +1,5 @@
 #btm{
   width: 100%;
-  height: max-content;
   display: flex;
   flex-direction: column-reverse;
   position: fixed;
@@ -23,8 +22,8 @@
 }
 #pcont{
   margin-left: 40px;
-  width: 95%;
-  height: 50px;
+  width: 8%;
+  height: 30px;
   padding: 40px;
 }
 .discp{

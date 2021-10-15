@@ -10,7 +10,7 @@
   border-radius: 10px;
   margin: 5px;
 }
-img{
+.img{
   background-color:violet;
   width: 45%;
   height: 50%;
@@ -36,8 +36,8 @@ img{
 }
 .container{
   float: left;
-  height: 90%;
-  width: 220px;
+  height: 200px;
+  width: 17%;
   background-color: rgba(167, 167, 167, 0.24);
   border-radius: 10px;
   margin: 15px;
@@ -90,14 +90,14 @@ img{
 .subcontainer{
   float: left;
   height:max-content;
-  width: 190px;
+  width: 14.8%;
   background-color:teal;
   border-radius: 10px;
-  margin: 7px;
+  margin: 6px;
 }
  .thumbnail{
   height: 190px;
-  width: 190px;
+  width: 100%;
   border-radius: 7px;
   background-color: rgb(11, 58, 53);
  }
@@ -110,43 +110,70 @@ img{
 .subcontainer2{
   float: left;
   height:max-content;
-  width: 190px;
+  width: 14.8%;
   background-color:rgb(188, 206, 24);
   border-radius: 10px;
-  margin: 7px;
+  margin: 6px;
 }
 .navigetor{
-            float: left;
-            margin: 5px;
-            margin-right: 0px;
-            background-color: transparent;
-            font: 1em sans-serif;
-            height: 220px; 
-            border: none;
-}
-table{
-  width: 100%;
-  height: max-content;
+ float: left;
+ text-align: center;
+ background-color: transparent;
+ height:max-content; 
+ border: none;
+ height: 220px;
+ vertical-align: middle;
+  }
+ #left{
+   opacity: 0;
+    height: 50px;
+    width: 27px;  
+  }
+  #left:hover{
+    opacity: 1;
+  }
+  .navigetort{
+    float: left;
+    background-color: transparent;
+    text-align: center;
+    height:max-content; 
+    border: none;
+    vertical-align: middle;
+    margin-top: 7.5%;
+  }
+  #tabnav{
+    opacity: 0;
+    width: 27px;
+    height: 50px;
+  }
+  #tabnav:hover{
+    opacity: 1;
+  }
+ table{
   float: left;
+  width: 92%;
+  height: max-content;
   background-color:transparent;
+  margin: 8px;
 }
 .tablecontent{
   background-color:transparent;
   width: 30%;
-  height: 50px;
-  padding: 5px;
-  margin: 5px;
+  height: 30px;
+  margin: 7px;
   border-radius: 10px;
+  padding: 2px;
 }
 .tablecontent:hover{
   background-color: rgb(38, 41, 41);
 }
  .timage{
   float:left;
-   height: 100px; 
-   width: 25%;
+  background-color: violet;
+   height: 70px; 
+   width: 19%;
   border-radius: 10px;
-  margin: 5px;
+  margin: 2px;
 }
 .tabd{
   color: thistle;
