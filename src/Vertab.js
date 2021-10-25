@@ -13,14 +13,14 @@ function Vertab() {
            <a class="sp" ><img className="micon" src={trophy}/>Charts</a>
          </div> 
         <div id="second">
-            <span className="vname">My library</span>
-              <a class="second">Favorite songs</a>
-              <a class="second">Artist</a>
-              <a class="second">Album</a>
-              <a class="second">History</a>
+            <span className="vname"><b>My library</b></span>
+              <a class="second"><b>Favorite songs</b></a>
+              <a class="second"><b>Artist</b></a>
+              <a class="second"><b>Album</b></a>
+              <a class="second"><b>History</b></a>
         </div> 
              <div id="playlist">
-               <span className="vname">My Playlist</span>
+               <span className="vname"><b>My Playlist</b></span>
                </div>
           </div>   
   )

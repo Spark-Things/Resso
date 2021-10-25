@@ -1,28 +1,37 @@
 *{
   box-sizing: border-box;
 }
+body{
+  color: white;
+  scroll-behavior: smooth;
+  background: linear-gradient(  rgb(32, 59, 95),rgb(32, 32, 32), rgb(32, 32, 32),rgb(32, 32, 32),rgb(32, 32, 32),rgb(32, 32, 32),rgb(32, 32, 32),rgb(32, 32, 32),rgb(32, 32, 32),rgb(32, 32, 32),rgb(32, 32, 32),rgb(32, 32, 32),rgb(32, 32, 32));
+  box-sizing: border-box;
+  padding: 0px;
+}
 #navbar{
   position: fixed;
-  width: 86.8%;
+  width: 89%;
   height: 80px;
-  background-color: rgb(43, 43, 43);
+  background-color: rgba(43, 43, 43, 0.274);
   padding: 25px;
   float: left;
   margin-left: 200px;
-  z-index: 1;
+  z-index: 10;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
 }
 #verbar{
   position: fixed;
   text-align: center;
   width: 200px;
   height: 100%;
-  background-color: rgb(43, 43, 43);
+  background-color: rgba(43, 43, 43, 0.274);
   float: left;
 }
 #maintab{
-  width: 86.8%;
+  width: 88%;
   height:max-content;
-  background-color: rgb(43, 43, 43);
+  background-color: rgba(43, 43, 43, 0.274);
   padding: 25px;
   float: left;
   margin-left: 200px;
@@ -61,6 +70,13 @@
   padding-left: 30px;
   margin-top: 0px;
 }
+.micon{
+  float: left;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  margin-right: 7px;
+}
 #second{
   text-align: left;
   float: left;
@@ -70,11 +86,13 @@
   padding-left: 40px;
 }
 .second{
+  text-decoration: bold;
   text-align: left;
+  font-size: 14px;
   width: 100%;
   float: left;
   font-family:  sans-serif;
-  color: rgb(82, 80, 80);
+  color: rgb(175, 175, 175);
   margin-top: 20px;
   opacity: .6;
 }
@@ -83,6 +101,7 @@
   text-decoration: underline;
 }
 .vname{
+  color: rgb(170, 170, 170);
   text-align: left;
   font-size: 14px;
   text-decoration: bold;
@@ -98,3 +117,4 @@
   padding: 50px;
   margin-top: 50px;
 }
+

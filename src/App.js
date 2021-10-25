@@ -2,6 +2,7 @@ import './App.css';
 import Maintab from "./Maintab";
 import Vertab from './Vertab';
 import Bottomp from './Bottomp';
+import React,{useState} from 'react';
 function App() {
   return (
     <div className="App">

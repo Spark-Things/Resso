@@ -5,6 +5,16 @@ import Subcontainer2 from './Subcontainer2';
 import Tablerow from './Tablerow';
 import left from './left.png';
 import right from './right.png';
+import t1 from './t1.jpg';
+import t2 from './t2.jpg';
+import t3 from './t3.jpg';
+import t4 from './t4.jpg';
+import t5 from './t5.jpg';
+import t6 from './t6.jpg';
+import pt1 from './pt1.jpg';
+import pt2 from './pt2.jpg';
+import pt3 from './pt3.jpg';
+import pt4 from './pt4.jpg';
 function Maintab() {
   const state={
     greet:"Hello spark"
@@ -68,49 +78,49 @@ function Maintab() {
        sty6.display="block";
        sty5.display="none";
      }
+   const istyle={
+    borderRadius:" 10px 0px 0px 0px "
+   }
+   const istyle2={
+     borderRadius:"0px 0px 0px 10px"
+   }  
   return(
     <div id="maintab">
          <h1 id="demo">{state.greet}</h1>
     <div class="containertwo">
          <div id="imgc">
-               <img className="img"/>
-               <img className="img"/>
-               <img className="img"/>
-               <img className="img"/>
+               <img className="img" src={pt1} style={istyle}/>
+               <img className="img" src={pt2}/>
+               <img className="img" src={pt3} style={istyle2}/>
+               <img className="img" src={pt4}/>
               </div>
      <div id="Dm">
-           <h2>Your Daily Mix</h2>
+           <p id="mname"><b>Your Daily Mix</b></p>
            <span id="discp">HERE is A description</span>
+           <button id="mbtn"><b>PLAY</b></button>
      </div>
  </div> 
       <div class="containera">
               <h2>New Releases</h2>
               </div>
-     <div class="container3"> 
-      <div class="container"></div>
-      <div class="container"></div>
-      <div class="container"></div>
-      <div class="container"></div>
-      <div class="container"></div>
-      </div>
       <div class="container3">
         <h2>Suggested Radios</h2>
         <button class="navigetor"onClick={()=>setPlus(0)}><img src={left} id="left"/></button>
         <div class="slides1" style={style}>
-            <Subcontainer/>
-            <Subcontainer/>
-            <Subcontainer/>
-            <Subcontainer/>
-            <Subcontainer/>
-            <Subcontainer/>
+            <Subcontainer thumbnail={t1} Sname="Hip-hop songs"/>
+            <Subcontainer thumbnail={t2} Sname="Trap Music "/>
+            <Subcontainer thumbnail={t3} Sname="Rap Trap"/>
+            <Subcontainer thumbnail={t4} Sname="Party Music"/>
+            <Subcontainer thumbnail={t5} Sname="Love Mashup 2020"/>
+            <Subcontainer thumbnail={t6} Sname="Love Mashup 2019"/>
         </div> 
         <div class="slides1" style={sty2}>
-           <Subcontainer2/>
-           <Subcontainer2/>
-           <Subcontainer2/>
-           <Subcontainer2/>
-           <Subcontainer2/>
-           <Subcontainer2/>
+           <Subcontainer2 thumbnail={t6} Sname="Love Mashup 2019"/>
+           <Subcontainer2 thumbnail={t5} Sname="Love Mashup 2020"/>
+           <Subcontainer2 thumbnail={t4} Sname="Party Music"/>
+           <Subcontainer2 thumbnail={t3} Sname="Rap Trap"/>
+           <Subcontainer2 thumbnail={t2} Sname="Trap Music "/>
+           <Subcontainer2 thumbnail={t1} Sname="Hip-hop songs"/>
          </div>  
          <button class="navigetor"onClick={()=>setPlus(1)}><img src={right} id="left"/></button> 
         </div>
@@ -119,20 +129,20 @@ function Maintab() {
         <h2>Songs You May Like </h2>
         <button class="navigetor"onClick={()=>setMinus(0)}><img src={left} id="left"/></button>
         <div class="slides2" style={sty3}>
-            <Subcontainer/>
-            <Subcontainer/>
-            <Subcontainer/>
-            <Subcontainer/>
-            <Subcontainer/>
-            <Subcontainer/>
+            <Subcontainer thumbnail={t6} Sname="Love Mashup 2019"/>
+            <Subcontainer thumbnail={t5} Sname="Love Mashup 2020"/>
+            <Subcontainer thumbnail={t4} Sname="Party Music"/>
+            <Subcontainer thumbnail={t3} Sname="Rap Trap"/>
+            <Subcontainer thumbnail={t2} Sname="Trap Music "/>
+            <Subcontainer thumbnail={t1} Sname="Hip-hop songs"/>
         </div> 
         <div className="slides2" style={sty4}>
-          <Subcontainer2/>
-          <Subcontainer2/>
-          <Subcontainer2/>
-          <Subcontainer2/>
-          <Subcontainer2/>
-          <Subcontainer2/>
+            <Subcontainer2 thumbnail={t1} Sname="Hip-hop songs"/>
+            <Subcontainer2 thumbnail={t2} Sname="Trap Music "/>
+            <Subcontainer2 thumbnail={t3} Sname="Rap Trap"/>
+            <Subcontainer2 thumbnail={t4} Sname="Party Music"/>
+            <Subcontainer2 thumbnail={t5} Sname="Love Mashup 2020"/>
+            <Subcontainer2 thumbnail={t6} Sname="Love Mashup 2019"/>
          </div>
          <button class="navigetor"onClick={()=>setMinus(1)}><img src={right} id="left"/></button>
       </div> 
@@ -142,28 +152,31 @@ function Maintab() {
       <button class="navigetort"onClick={()=>setTabslide(0)}><img src={left} id="tabnav"/></button>
         <div className="slide 1" style={sty5}>
              <table>
-                  <Tablerow/>
-                  <Tablerow/>
-                  <Tablerow/>
+                  <Tablerow thumbnail={pt1}/>
+                  <Tablerow thumbnail={pt2}/>
+                  <Tablerow thumbnail={pt4}/>
              </table>
         </div> 
         <div className="slide 1" style={sty6} >
              <table>
-                  <Tablerow/>
-                  <Tablerow/>
-                  <Tablerow/>
-                  <p>table 2</p>
+                  <Tablerow thumbnail={pt2}/>
+                  <Tablerow thumbnail={pt3}/>
+                  <Tablerow thumbnail={pt1}/>
              </table>
         </div>    
       <button class="navigetort"onClick={()=>setTabslide(1)}><img src={right} id="tabnav"/></button>        
            </div>
-           <div class="container3"> 
+     <div class="container3"> 
       <div class="container"></div>
       <div class="container"></div>
       <div class="container"></div>
       <div class="container"></div>
       <div class="container"></div>
-      </div>   
+      </div>
+      <div class="lastcontainer"> 
+           <p> Refresh to get new Music </p>
+           <button id="rb">Refresh</button>
+      </div>      
 </div>
   )  
   }

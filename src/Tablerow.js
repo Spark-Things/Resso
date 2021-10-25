@@ -1,23 +1,26 @@
-function Tablerow() {
+function Tablerow(props) {
   return(
     <tr>
     <td class="tablecontent">
-       <img alt="images" className="timage"/>
+       <img alt="images" className="timage" src={props.thumbnail}/>
        <div className="tabd">
-          table column 1 
+          <p className="sngname">table column 1 </p>
+          <p className="sn">Singers Name</p>
        </div>
     </td>
     <td class="tablecontent">
-    <img alt="images" className="timage"/>
-     <div className="tabd">
-        Table column 2
-     </div>
+    <img alt="images" className="timage" src={props.thumbnail}/>
+    <div className="tabd">
+          <p className="sngname">table column 1 </p>
+          <p className="sn">Singers Name</p>
+       </div>
     </td>
     <td class="tablecontent">
-    <img alt="images" className="timage"/>
-     <div className="tabd">
-          <span><b>Table column 3</b></span>
-     </div>
+    <img alt="images" className="timage" src={props.thumbnail}/>
+    <div className="tabd">
+          <p className="sngname">table column 1 </p>
+          <p className="sn">Singers Name</p>
+       </div>
     </td>
  </tr>
   )

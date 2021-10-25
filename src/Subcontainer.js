@@ -1,9 +1,9 @@
 
-function Subcontainer() {
+function Subcontainer(props) {
   return (
   <div class="subcontainer">
-       <img alt="img" className="thumbnail img"/>
-       <p className="songd">Song Name</p>
+       <img alt="img" className="thumbnail" src={props.thumbnail}/>
+       <p className="songd"><b>{props.Sname}</b></p>
   </div>
   )
 }
