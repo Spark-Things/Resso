@@ -3,6 +3,7 @@ import playbutton from './play.png';
 import next from './next.png';
 import pre from './previous.png';
 import pt1 from './pt1.jpg';
+import { Link } from 'react-router-dom'
 function Bottomp() {
   return(
      <div id="btm">
@@ -11,7 +12,7 @@ function Bottomp() {
               <div id="dicont"> 
               <p className="discp"><b>Arcade</b></p><br/>
               <p className="discp"> Duncan Laurence</p>
-              </div>
+              </div>  
               <div id="mdcont">
                  <img className="btns bop" src={next}/>
                  <img className="btns" src={playbutton}/>
@@ -23,8 +24,11 @@ function Bottomp() {
               <input type="range" max="100%" min="0" id="songrange"/>
               </div>
          </div>
+        
             <div id="pcont">
+            <Link to="/mplayer">   
             <img alt="Image here" id="cthumb" className="img" src={pt1}/>
+            </Link>
             </div>
      </div>
   )

@@ -102,6 +102,9 @@ function Maintab() {
  </div> 
       <div class="containera">
               <h2>New Releases</h2>
+              <img src={t2} className="imgs"/>
+              <img src={t3} className="img2"/>
+              <img src={t4} className="imgs"/>
               </div>
       <div class="container3">
         <h2>Suggested Radios</h2>

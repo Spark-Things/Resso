@@ -1,0 +1,74 @@
+#content{
+  width: 100%;
+  height: 100%;
+}
+#navc{
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+}
+.ctabs{
+  color: rgba(255, 255, 255, 0.568);
+  font-size: 16px;
+  margin: 5px;
+  margin-left: 10px;
+  padding: 10px;
+  opacity: .6;
+}
+.ctabs:hover{
+  color:white;
+  opacity: 1;
+}
+.ccontainer{
+  float: left;
+  width: 97.5%;
+  height:max-content;
+  background-color:rgba(46, 46, 46, 0.74);
+  margin: 15px;
+  border-radius: 10px;
+  padding: 30px;
+}
+.cthumbnail{
+  float: left;
+  height: 250px;
+  width: 250px;
+  border-radius: 10px;
+}
+#ctable{
+  width: 78%;
+  float: left;
+  margin-left: 20px;
+  border: 0px;
+}
+.ctr{
+  padding-left: 10px;
+  height: 45px;
+  border-radius: 10px;
+}
+.ctr:hover{
+  background-color: rgba(61, 61, 61, 0.63);
+}
+.left{
+  color: rgba(255, 255, 255, 0.568);
+  padding: 10px;
+  border-radius: 10px 0px 0px 10px;
+}
+.center{
+  color: rgba(121, 121, 121, 0.685);
+  padding: 10px;
+}
+.center:hover{
+  color: rgba(255, 255, 255, 0.568);
+  text-decoration: underline;
+}
+.right{
+  color: rgba(255, 255, 255, 0.568);
+  padding: 10px;
+  border-radius: 0px 10px 10px 0px;
+}
+#cva{
+  color: rgba(255, 255, 255, 0.568);
+  padding-top: 20px;
+  margin: 10px;
+  float: right;
+}

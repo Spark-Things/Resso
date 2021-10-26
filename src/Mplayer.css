@@ -1,0 +1,49 @@
+#mplayer{
+  padding-top: 50px;
+  padding-left: 30px;
+  backdrop-filter: blur(5px);
+  margin-bottom: 100px;
+}
+#imgcontainer{
+  float: left;
+  width: 250px;
+  height: 250px;
+  background-color: chocolate;
+  border-radius: 10px;
+  margin-right: 0px;
+}
+#lepcontainer{
+  float: left;
+  height: max-content;
+  width: max-content;
+  margin-left: 150px;
+  margin-top: 50px;
+}
+#lyricscontainer{
+  float: left;
+  width: 40%;
+  height: 80%;
+  background-color: rgba(100, 148, 237, 0.733);
+  margin-left: 10%;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+}
+#dbtn{
+  border: 0px;
+  padding: 10px;
+  background-color: transparent;
+}
+#dnarrow{
+  height: 30px;
+  width: 30px;
+}
+.btnss{
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 10px;
+}
+.btnss:hover{
+  background-color: rgb(107, 107, 107);
+}

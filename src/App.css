@@ -7,6 +7,7 @@ body{
   background: linear-gradient(  rgb(32, 59, 95),rgb(32, 32, 32), rgb(32, 32, 32),rgb(32, 32, 32),rgb(32, 32, 32),rgb(32, 32, 32),rgb(32, 32, 32),rgb(32, 32, 32),rgb(32, 32, 32),rgb(32, 32, 32),rgb(32, 32, 32),rgb(32, 32, 32),rgb(32, 32, 32));
   box-sizing: border-box;
   padding: 0px;
+  background-repeat: no-repeat;
 }
 #navbar{
   position: fixed;
@@ -38,6 +39,28 @@ body{
   margin-top: 80px;
   padding-left: 0px;
 }
+#Browse{
+  width: 88%;
+  height:max-content;
+  background-color: rgba(43, 43, 43, 0.274);
+  padding: 25px;
+  float: left;
+  margin-left: 200px;
+  margin-top: 80px;
+  padding-left: 0px;
+  margin-bottom: 100px;
+}
+#Chartstab{
+  width: 88%;
+  height:max-content;
+  background-color: rgba(43, 43, 43, 0.274);
+  padding: 25px;
+  float: left;
+  margin-left: 200px;
+  margin-top: 80px;
+  padding-left: 0px;
+  margin-bottom: 100px;
+}
 #searchbar{
   width: 400px;
   padding: 10px;
@@ -47,6 +70,12 @@ body{
   background-color: rgba(167, 167, 167, 0.24);
   float: right;
 }
+#mplayer{
+  width: 100%;
+  background-color: rgba(95, 158, 160, 0.377);
+  height: 900px;
+}
+/* --------------------------- Vertab Elements  -------------------------------------*/
 .sp{
   text-align: left;
   width: 100%;
